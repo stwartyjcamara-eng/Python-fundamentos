@@ -31,3 +31,7 @@ print(idades)
 lista_mista = [25, 'Python', 3.14, True, [0, 1, 2]]
 print(lista_mista)
 print(type(lista_mista))
+lista_mista [1] = 'Cobra'  # Modificando um elemento da lista
+print(lista_mista)
+lista_2 = lista_mista[4]  # Acessando um elemento dentro da lista aninhada
+print(lista_2)
