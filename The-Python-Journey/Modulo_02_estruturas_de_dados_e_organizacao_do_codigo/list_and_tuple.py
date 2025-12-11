@@ -17,5 +17,7 @@ print(nome1, nome2, *_,'\n') # o _ sgnifica que o valor não será usado
 '''
 tuplas = listas imutáveis
 '''
-nome = 'Ana', 'Bruno', 'Carla'  # tupla implícita
+nome = 'Ana', 'Bruno', 'Carla' # tupla sem parênteses
+#nome[1] = 'Daniel'  # Isso causará um erro, pois tuplas são imutáveis
+print(nome[0],'\n')  # Acesso por índice
 print(nome)
